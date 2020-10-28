@@ -13,6 +13,8 @@
 		9958CB93254567A9007E64F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9958CB91254567A9007E64F4 /* Main.storyboard */; };
 		9958CB95254567AB007E64F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9958CB94254567AB007E64F4 /* Assets.xcassets */; };
 		9958CB98254567AB007E64F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9958CB96254567AB007E64F4 /* LaunchScreen.storyboard */; };
+		9958CBA025456AA0007E64F4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958CB9F25456AA0007E64F4 /* WebViewController.swift */; };
+		9958CBA225458522007E64F4 /* RssParserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9958CBA125458522007E64F4 /* RssParserDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9958CB94254567AB007E64F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9958CB97254567AB007E64F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9958CB99254567AB007E64F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9958CB9F25456AA0007E64F4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9958CBA125458522007E64F4 /* RssParserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssParserDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				9958CB8B254567A9007E64F4 /* AppDelegate.swift */,
 				9958CB8D254567A9007E64F4 /* SceneDelegate.swift */,
-				9958CB8F254567A9007E64F4 /* ViewController.swift */,
 				9958CB91254567A9007E64F4 /* Main.storyboard */,
+				9958CB8F254567A9007E64F4 /* ViewController.swift */,
+				9958CBA125458522007E64F4 /* RssParserDelegate.swift */,
+				9958CB9F25456AA0007E64F4 /* WebViewController.swift */,
 				9958CB94254567AB007E64F4 /* Assets.xcassets */,
 				9958CB96254567AB007E64F4 /* LaunchScreen.storyboard */,
 				9958CB99254567AB007E64F4 /* Info.plist */,
@@ -141,6 +147,8 @@
 				9958CB90254567A9007E64F4 /* ViewController.swift in Sources */,
 				9958CB8C254567A9007E64F4 /* AppDelegate.swift in Sources */,
 				9958CB8E254567A9007E64F4 /* SceneDelegate.swift in Sources */,
+				9958CBA025456AA0007E64F4 /* WebViewController.swift in Sources */,
+				9958CBA225458522007E64F4 /* RssParserDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
